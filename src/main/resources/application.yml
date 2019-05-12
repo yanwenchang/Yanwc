@@ -1,20 +1,20 @@
 # 项目相关配置
-ruoyi:
+yanwc:
   # 名称
-  name: RuoYi
+  name: yanwc
   # 版本
   version: 3.3.0
   # 版权年份
   copyrightYear: 2019
   # 文件路径
-  profile: D:/profile/
+  profile: C:/profile/
   # 获取ip地址开关
   addressEnabled: true
 
 # 开发环境配置
 server:
-  # 服务器的HTTP端口，默认为80
-  port: 80
+  # 服务器的HTTP端口，默认为8080
+  port: 8080
   servlet:
     # 应用的访问路径
     context-path: /
@@ -71,7 +71,7 @@ spring:
 # MyBatis
 mybatis:
     # 搜索指定包别名
-    typeAliasesPackage: com.ruoyi.project
+    typeAliasesPackage: com.yanwc,yanwcspringboot.project
     # 配置mapper的扫描，找到所有的mapper.xml映射文件
     mapperLocations: classpath:mybatis/**/*Mapper.xml
     # 加载全局的配置文件
@@ -126,9 +126,9 @@ xss:
 # 代码生成
 gen: 
   # 作者
-  author: ruoyi
+  author: yanwc
   # 默认生成包路径 system 需改成自己的模块名称 如 system monitor tool
-  packageName: com.ruoyi.project.system
+  packageName: com.yanwc.yanwcspringboot.project.system
   # 自动去除表前缀，默认是true
   autoRemovePre: true
   # 表前缀(类名不会包含表前缀)
