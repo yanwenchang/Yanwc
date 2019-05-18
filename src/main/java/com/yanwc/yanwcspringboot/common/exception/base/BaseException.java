@@ -1,12 +1,12 @@
-package com.ruoyi.common.exception.base;
+package com.yanwc.yanwcspringboot.common.exception.base;
 
+import com.yanwc.yanwcspringboot.common.utils.MessageUtils;
 import org.springframework.util.StringUtils;
-import com.ruoyi.common.utils.MessageUtils;
 
 /**
  * 基础异常
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 public class BaseException extends RuntimeException
 {

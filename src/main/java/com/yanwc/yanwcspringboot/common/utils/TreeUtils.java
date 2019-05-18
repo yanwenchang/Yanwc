@@ -1,9 +1,10 @@
-package com.ruoyi.common.utils;
+package com.yanwc.yanwcspringboot.common.utils;
+
+import com.ruoyi.project.system.menu.domain.Menu;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import com.ruoyi.project.system.menu.domain.Menu;
 
 /**
  * 权限数据处理

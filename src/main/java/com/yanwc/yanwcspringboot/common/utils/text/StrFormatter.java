@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils.text;
+package com.yanwc.yanwcspringboot.common.utils.text;
 
 import com.ruoyi.common.utils.StringUtils;
 

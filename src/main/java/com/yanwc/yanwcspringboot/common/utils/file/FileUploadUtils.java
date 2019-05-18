@@ -1,13 +1,14 @@
-package com.ruoyi.common.utils.file;
+package com.yanwc.yanwcspringboot.common.utils.file;
 
-import java.io.File;
-import java.io.IOException;
-import org.springframework.web.multipart.MultipartFile;
 import com.ruoyi.common.exception.file.FileNameLengthLimitExceededException;
 import com.ruoyi.common.exception.file.FileSizeLimitExceededException;
 import com.ruoyi.common.utils.DateUtils;
 import com.ruoyi.common.utils.Md5Utils;
 import com.ruoyi.framework.config.RuoYiConfig;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.io.File;
+import java.io.IOException;
 
 /**
  * 文件上传工具类

@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils.sql;
+package com.yanwc.yanwcspringboot.common.utils.sql;
 
 import com.ruoyi.common.utils.StringUtils;
 

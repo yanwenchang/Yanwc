@@ -1,4 +1,4 @@
-package com.ruoyi.common.constant;
+package com.yanwc.yanwcspringboot.common.constant;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 通用数据库映射Map数据
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 public class CommonMap
 {

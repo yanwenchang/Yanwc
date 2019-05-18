@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils.spring;
+package com.yanwc.yanwcspringboot.common.utils.spring;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;

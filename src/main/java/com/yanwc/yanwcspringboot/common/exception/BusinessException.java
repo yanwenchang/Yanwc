@@ -1,9 +1,9 @@
-package com.ruoyi.common.exception;
+package com.yanwc.yanwcspringboot.common.exception;
 
 /**
  * 业务异常
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 public class BusinessException extends RuntimeException
 {

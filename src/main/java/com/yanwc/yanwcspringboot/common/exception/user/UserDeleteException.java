@@ -1,9 +1,9 @@
-package com.ruoyi.common.exception.user;
+package com.yanwc.yanwcspringboot.common.exception.user;
 
 /**
  * 用户账号已被删除
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 public class UserDeleteException extends UserException
 {

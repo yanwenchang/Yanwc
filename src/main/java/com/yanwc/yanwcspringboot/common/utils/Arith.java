@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils;
+package com.yanwc.yanwcspringboot.common.utils;
 
 import java.math.BigDecimal;
 

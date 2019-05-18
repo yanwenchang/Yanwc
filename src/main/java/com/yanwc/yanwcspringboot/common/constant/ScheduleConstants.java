@@ -1,9 +1,9 @@
-package com.ruoyi.common.constant;
+package com.yanwc.yanwcspringboot.common.constant;
 
 /**
  * 任务调度通用常量
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 public interface ScheduleConstants
 {

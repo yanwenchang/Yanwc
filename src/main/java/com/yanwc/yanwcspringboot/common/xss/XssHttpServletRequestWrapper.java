@@ -1,9 +1,10 @@
-package com.ruoyi.common.xss;
+package com.yanwc.yanwcspringboot.common.xss;
+
+import org.jsoup.Jsoup;
+import org.jsoup.safety.Whitelist;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletRequestWrapper;
-import org.jsoup.Jsoup;
-import org.jsoup.safety.Whitelist;
 
 /**
  * XSS过滤处理

@@ -1,9 +1,9 @@
-package com.ruoyi.common.exception.job;
+package com.yanwc.yanwcspringboot.common.exception.job;
 
 /**
  * 计划策略异常
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 public class TaskException extends Exception
 {

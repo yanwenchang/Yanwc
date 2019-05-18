@@ -1,11 +1,11 @@
-package com.ruoyi.common.exception.user;
+package com.yanwc.yanwcspringboot.common.exception.user;
 
-import com.ruoyi.common.exception.base.BaseException;
+import com.yanwc.yanwcspringboot.common.exception.base.BaseException;
 
 /**
  * 用户信息异常类
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 public class UserException extends BaseException
 {

@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils;
+package com.yanwc.yanwcspringboot.common.utils;
 
 import com.alibaba.fastjson.JSONObject;
 import com.ruoyi.common.utils.http.HttpUtils;

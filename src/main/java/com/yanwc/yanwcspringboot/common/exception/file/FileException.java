@@ -1,11 +1,11 @@
-package com.ruoyi.common.exception.file;
+package com.yanwc.yanwcspringboot.common.exception.file;
 
-import com.ruoyi.common.exception.base.BaseException;
+import com.yanwc.yanwcspringboot.common.exception.base.BaseException;
 
 /**
  * 文件信息异常类
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 public class FileException extends BaseException
 {

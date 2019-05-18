@@ -1,8 +1,9 @@
-package com.ruoyi.common.utils;
+package com.yanwc.yanwcspringboot.common.utils;
+
+import com.ruoyi.common.utils.text.StrFormatter;
 
 import java.util.Collection;
 import java.util.Map;
-import com.ruoyi.common.utils.text.StrFormatter;
 
 /**
  * 字符串工具类

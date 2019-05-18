@@ -1,9 +1,10 @@
-package com.ruoyi.common.utils;
+package com.yanwc.yanwcspringboot.common.utils;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.shiro.SecurityUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 import javax.servlet.http.HttpServletRequest;
 import java.io.PrintWriter;
 import java.io.StringWriter;

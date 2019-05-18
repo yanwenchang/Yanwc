@@ -1,9 +1,9 @@
-package com.ruoyi.common.constant;
+package com.yanwc.yanwcspringboot.common.constant;
 
 /**
  * 通用常量信息
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 public class Constants
 {

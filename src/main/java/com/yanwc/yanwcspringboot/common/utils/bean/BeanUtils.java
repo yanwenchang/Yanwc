@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils.bean;
+package com.yanwc.yanwcspringboot.common.utils.bean;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

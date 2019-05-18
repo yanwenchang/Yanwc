@@ -1,9 +1,9 @@
-package com.ruoyi.common.utils;
+package com.yanwc.yanwcspringboot.common.utils;
+
+import org.apache.commons.lang3.exception.ExceptionUtils;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import org.apache.commons.lang3.exception.ExceptionUtils;
-import com.ruoyi.common.utils.StringUtils;
 
 /**
  * 错误信息处理类。

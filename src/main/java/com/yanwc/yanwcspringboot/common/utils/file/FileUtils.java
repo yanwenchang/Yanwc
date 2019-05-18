@@ -1,13 +1,8 @@
-package com.ruoyi.common.utils.file;
+package com.yanwc.yanwcspringboot.common.utils.file;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
 import javax.servlet.http.HttpServletRequest;
+import java.io.*;
+import java.net.URLEncoder;
 
 /**
  * 文件处理工具类

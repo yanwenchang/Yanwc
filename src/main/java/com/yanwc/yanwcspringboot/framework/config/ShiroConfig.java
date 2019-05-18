@@ -1,17 +1,22 @@
-package com.ruoyi.framework.config;
+package com.yanwc.yanwcspringboot.framework.config;
 
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import javax.servlet.Filter;
+import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
+import com.yanwc.yanwcspringboot.common.utils.StringUtils;
+import com.yanwc.yanwcspringboot.common.utils.spring.SpringUtils;
+import com.yanwc.yanwcspringboot.framework.shiro.realm.UserRealm;
+import com.yanwc.yanwcspringboot.framework.shiro.session.OnlineSessionDAO;
+import com.yanwc.yanwcspringboot.framework.shiro.session.OnlineSessionFactory;
+import com.yanwc.yanwcspringboot.framework.shiro.web.filter.LogoutFilter;
+import com.yanwc.yanwcspringboot.framework.shiro.web.filter.captcha.CaptchaValidateFilter;
+import com.yanwc.yanwcspringboot.framework.shiro.web.filter.online.OnlineSessionFilter;
+import com.yanwc.yanwcspringboot.framework.shiro.web.filter.sync.SyncOnlineSessionFilter;
+import com.yanwc.yanwcspringboot.framework.shiro.web.session.OnlineWebSessionManager;
+import com.yanwc.yanwcspringboot.framework.shiro.web.session.SpringSessionValidationScheduler;
 import org.apache.commons.io.IOUtils;
 import org.apache.shiro.cache.ehcache.EhCacheManager;
 import org.apache.shiro.codec.Base64;
 import org.apache.shiro.config.ConfigurationException;
 import org.apache.shiro.io.ResourceUtils;
-import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.CookieRememberMeManager;
@@ -21,23 +26,18 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.common.utils.spring.SpringUtils;
-import com.ruoyi.framework.shiro.realm.UserRealm;
-import com.ruoyi.framework.shiro.session.OnlineSessionDAO;
-import com.ruoyi.framework.shiro.session.OnlineSessionFactory;
-import com.ruoyi.framework.shiro.web.filter.LogoutFilter;
-import com.ruoyi.framework.shiro.web.filter.captcha.CaptchaValidateFilter;
-import com.ruoyi.framework.shiro.web.filter.online.OnlineSessionFilter;
-import com.ruoyi.framework.shiro.web.filter.sync.SyncOnlineSessionFilter;
-import com.ruoyi.framework.shiro.web.session.OnlineWebSessionManager;
-import com.ruoyi.framework.shiro.web.session.SpringSessionValidationScheduler;
-import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
+
+import javax.servlet.Filter;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 /**
  * 权限配置加载
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 @Configuration
 public class ShiroConfig

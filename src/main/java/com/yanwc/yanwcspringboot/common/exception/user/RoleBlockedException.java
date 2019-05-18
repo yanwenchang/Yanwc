@@ -1,9 +1,9 @@
-package com.ruoyi.common.exception.user;
+package com.yanwc.yanwcspringboot.common.exception.user;
 
 /**
  * 角色锁定异常类
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 public class RoleBlockedException extends UserException
 {

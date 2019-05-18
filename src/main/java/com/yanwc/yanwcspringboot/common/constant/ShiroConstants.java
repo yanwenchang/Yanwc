@@ -1,9 +1,9 @@
-package com.ruoyi.common.constant;
+package com.yanwc.yanwcspringboot.common.constant;
 
 /**
  * Shiro通用常量
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 public interface ShiroConstants
 {

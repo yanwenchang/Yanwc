@@ -1,9 +1,9 @@
-package com.ruoyi.common.exception.user;
+package com.yanwc.yanwcspringboot.common.exception.user;
 
 /**
  * 用户错误最大次数异常类
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 public class UserPasswordRetryLimitExceedException extends UserException
 {

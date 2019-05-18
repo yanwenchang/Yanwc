@@ -1,4 +1,6 @@
-package com.ruoyi.common.utils.text;
+package com.yanwc.yanwcspringboot.common.utils.text;
+
+import com.ruoyi.common.utils.StringUtils;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -6,7 +8,6 @@ import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
 import java.text.NumberFormat;
 import java.util.Set;
-import com.ruoyi.common.utils.StringUtils;
 
 /**
  * 类型转换器

@@ -1,9 +1,9 @@
-package com.ruoyi.common.constant;
+package com.yanwc.yanwcspringboot.common.constant;
 
 /**
  * 权限通用常量
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 public class PermissionConstants
 {

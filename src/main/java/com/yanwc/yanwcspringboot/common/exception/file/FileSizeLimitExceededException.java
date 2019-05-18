@@ -1,9 +1,9 @@
-package com.ruoyi.common.exception.file;
+package com.yanwc.yanwcspringboot.common.exception.file;
 
 /**
  * 文件名大小限制异常类
  * 
- * @author ruoyi
+ * @author yanwenchang
  */
 public class FileSizeLimitExceededException extends FileException
 {
